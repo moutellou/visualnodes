@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="vnodes">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.outellou.vnodes' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/vnodes/greet" class="com.outellou.server.GreetingServiceImpl" />
+
+</module>
